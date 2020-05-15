@@ -1,4 +1,4 @@
-/*Global Styles*/
+/*GLOBAL*/
 
 body {
   font-family: 'Roboto Slab', serif;
@@ -8,6 +8,7 @@ body {
 h1,h2,h3,h4,h5,h6, .nav-link, .navbar-brand {
  font-family: 'Roboto', sans-serif;
 }
+
 /*NAV*/
 
 .nav-link {
@@ -18,8 +19,8 @@ h1,h2,h3,h4,h5,h6, .nav-link, .navbar-brand {
 #jumbo {
   background-image: url("../img/hero2.jpg");
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
   height:100vh;
   margin-bottom:0px;
   
@@ -62,7 +63,6 @@ h1,h2,h3,h4,h5,h6, .nav-link, .navbar-brand {
   font-size:1.6em;
 }
 
-
 /*  CONTACT */
 #contact {
   background-color:#222254;
@@ -74,19 +74,21 @@ h1,h2,h3,h4,h5,h6, .nav-link, .navbar-brand {
   border:2px solid rgba(135, 206, 250);
   max-width:300px; 
 }
+
 #contact-head{
   font-size:3.4em;
 }
 
 #contact-sub-head{
-  font-weight:300;
   font-size:2.4em;
+  font-weight:300;
 }
 
 #email-link {
+  color:#87cefa;
+  font-family: 'Roboto', sans-serif;
   font-size:2em;
   text-decoration:none;
-  color:#87cefa;
 }
 
 .email-icon{
@@ -94,8 +96,8 @@ h1,h2,h3,h4,h5,h6, .nav-link, .navbar-brand {
 }
 
 .email-icon:hover, 
-#email-link:hover{
-  color:white;
+#email-link:hover {
+  color:rgb(255, 255, 255);
 }
 
 .soc-med-icon{
@@ -108,8 +110,7 @@ h1,h2,h3,h4,h5,h6, .nav-link, .navbar-brand {
   color:rgb(255, 255, 255) !important;
 }
 
-
-/* Landscape mode for mobile (iphoneX)*/
+/* Landscape mode for mobile*/
 
 @media only screen 
   and (min-device-width: 375px) 
@@ -117,19 +118,8 @@ h1,h2,h3,h4,h5,h6, .nav-link, .navbar-brand {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
 
- #jumbo-head{
-   font-size:3em;
-   margin:-25px 0 0 70px;
- }
-
+  #jumbo-head{
+    font-size:3em;
+    margin:-25px 0 0 70px;
+  }
 }
-
-
-
-
-
-
-
-
-
-

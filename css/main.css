@@ -1,0 +1,135 @@
+/*Global Styles*/
+
+body {
+  font-family: 'Roboto Slab', serif;
+  font-size:10px;
+}
+
+h1,h2,h3,h4,h5,h6, .nav-link, .navbar-brand {
+ font-family: 'Roboto', sans-serif;
+}
+/*NAV*/
+
+.nav-link {
+  font-size:1.6em;
+}
+
+/*HEADER*/
+#jumbo {
+  background-image: url("../img/hero2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:100vh;
+  margin-bottom:0px;
+  
+}
+#jumbo-head{
+  font-size:5em;
+}
+
+.jumbo-head-span{
+  color:crimson;
+}
+
+.name-text {
+  font-weight:700;
+}
+
+/*ABOUT*/
+
+#about-head{
+  font-size:4em;
+  font-weight:700 !important;
+}
+
+.about-text {
+  font-size:1.6em;
+}
+
+/*WORK*/
+
+#work{
+  background-color:rgba(135, 206, 250, 0.75);
+  margin:0;
+}
+
+.skill-icon{
+  max-width:56px;
+}
+
+.skill-text{
+  font-size:1.6em;
+}
+
+
+/*  CONTACT */
+#contact {
+  background-color:#222254;
+  color:rgba(135, 206, 250);
+  margin:0;
+}
+
+#contact-img {
+  border:2px solid rgba(135, 206, 250);
+  max-width:300px; 
+}
+#contact-head{
+  font-size:3.4em;
+}
+
+#contact-sub-head{
+  font-weight:300;
+  font-size:2.4em;
+}
+
+#email-link {
+  font-size:2em;
+  text-decoration:none;
+  color:#87cefa;
+}
+
+.email-icon{
+  color:rgba(135, 206, 250)
+}
+
+.email-icon:hover, 
+#email-link:hover{
+  color:white;
+}
+
+.soc-med-icon{
+  color:rgba(135,206,250);
+  font-size:3em;
+}
+
+.fab:hover,
+.soc-med-icon:hover{
+  color:rgb(255, 255, 255) !important;
+}
+
+
+/* Landscape mode for mobile (iphoneX)*/
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+ #jumbo-head{
+   font-size:3em;
+   margin:-25px 0 0 70px;
+ }
+
+}
+
+
+
+
+
+
+
+
+
+

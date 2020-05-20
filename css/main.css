@@ -16,6 +16,7 @@ h1,h2,h3,h4,h5,h6, .nav-link, .navbar-brand {
 }
 
 /*HEADER*/
+
 #jumbo {
   background-image: url("../img/hero2.jpg");
   background-position: center;
@@ -23,8 +24,8 @@ h1,h2,h3,h4,h5,h6, .nav-link, .navbar-brand {
   background-size: cover;
   height:100vh;
   margin-bottom:0px;
-  
 }
+
 #jumbo-head{
   font-size:5em;
 }

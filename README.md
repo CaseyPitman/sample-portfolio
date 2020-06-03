@@ -1,7 +1,7 @@
 # sample-portfolio
-A redux of my very first site - a sample portfolio for a fictional dev - utilizing a lot of what I learned since I first began. 
 
+HTML, CSS, & Bootstrap
 
-The first version was a simple static, non-responsive site. It looked great on a laptop but terrible on a larger screen or a mobile device. I've learned a lot since then, and have applied newly acquired skills to my first project. I'm a lot happier with the finished version now. 
+This sample portfolio site for a fictional developer is a redux of my very first project. The original project was neither responsive nor mobile-friendly. I decided to revamp this site recently, this time making it fully responsive using the skills and tools I had acquired since my first attempt. Again, getting the header image to respond the way I wanted it to was a challenge, specifically in landscape mode on a mobile device.
 
 -CSP
